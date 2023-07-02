@@ -44,7 +44,6 @@ const SignInForm = () => {
         email,
         password
       );
-      setCurrentUser(user);
 
       resetFormFields();
     } catch (error) {
