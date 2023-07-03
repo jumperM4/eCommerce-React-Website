@@ -10,7 +10,6 @@ import { signOutUser } from "../../utils/firebase/firebase.utils";
 
 const Navigation = () => {
   const { currentUser } = useContext(UserContext);
-  // console.log(currentUser);
 
   return (
     <Fragment>
