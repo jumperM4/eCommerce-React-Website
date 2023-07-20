@@ -7,6 +7,6 @@ import { rootReducer } from "./root-reducer";
 
 // ----------------------------------------------------------------
 const middleWares = [logger];
-const composedEnhancers = compose(applyMiddleware(...middleWares));
+const composedEnhancers = applyMiddleware(...middleWares);
 
 export const store = createStore(rootReducer, composedEnhancers);
